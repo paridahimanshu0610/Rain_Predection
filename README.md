@@ -1,8 +1,14 @@
 # Telco-customer-churn-prediction
-## Context
+
+## File Structure:
+- Rain_Prediction.ipynb: Contains the entire project code
+- Utilities: Contains my own custom modules for evaluation metrics(EvaluationMetrics.py) and visualization(Visualizations.py)
+- Data: Contains the data(.csv) file 
+
+## Context:
 Our objective is to forecast rain for the following day using classification models trained on the RainTomorrow target variable.
 
-## Content
+## Content:
 This dataset encompasses approximately a decade's of daily weather records gathered from various locations across Australia.
 
 The focal point of our prediction is RainTomorrow, representing a binary outcome: Did it rain the subsequent day? The answer is either "Yes" or "No." Specifically, a "Yes" corresponds to days when rainfall measured 1mm or more.
@@ -55,7 +61,7 @@ The dataset utilized in this project has been sourced from [Kaggle's Rain In Aus
 
 - RainTomorrow: The target variable. Did it rain tomorrow? References This total dataset is taken from following kaggle reference.
 
-## Methodology
+## Methodology:
 
 ### Exploratory data analysis
 1. Made count plots to show rain on the next day (target) with categorical inputs and histograms for numeric inputs.
