@@ -1,4 +1,4 @@
-# Telco-customer-churn-prediction
+# Rain Prediction In Australia
 
 ## File Structure:
 - Rain_Prediction.ipynb: Contains the entire project code
